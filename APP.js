@@ -1,0 +1,10 @@
+let priNum = prompt('digite um número:');
+let segNum = prompt('digite outro número:');
+priNum = pareseFloat (priNum);
+segNum = parseFloat (segNum);
+let soma = priNum + segNum;
+let sub = priNum - segNum;
+alert('somar os valores informados...');
+alert('a soma de '+ priNum + ' e '+ segNum +' é '+ soma);
+alert('agora vou subtrai-los...');
+alert('a subtração entre '+ priNum +' e '+ segNum +' é '+ sub);
